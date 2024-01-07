@@ -89,6 +89,7 @@ function removePost(postId) {
     }
 }
 
+// editing pictures in posts
 function openFileInput(editButton) {
     var imageContainer = editButton.closest('.post').querySelector('.post-image')
     var fileInput = document.createElement('input')
